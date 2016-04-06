@@ -78,6 +78,7 @@ VOLUME ["/usr/share/nginx/html"]
 
 # add test PHP file
 ADD src/index.php /usr/share/nginx/html/index.php
+ADD src/php.php /usr/share/nginx/html/php.php
 RUN chown -Rf www-data.www-data /usr/share/nginx/html/
 
 # Expose Ports
