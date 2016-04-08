@@ -63,3 +63,4 @@ chown -Rf www-data.www-data /usr/share/nginx/html/
 /usr/bin/supervisord -n -c /etc/supervisord.conf
 #reload php.ini
 /etc/init.d/php5-fpm restart
+/etc/init.d/nginx reload
